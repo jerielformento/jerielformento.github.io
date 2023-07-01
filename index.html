@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,21 +15,21 @@
             }
         }
     </script>
-    <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.5/viewer.min.js"
-    integrity="sha512-i5q29evO2Z4FHGCO+d5VLrwgre/l+vaud5qsVqQbPXvHmD9obORDrPIGFpP2+ep+HY+z41kAmVFRHqQAjSROmA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-></script>
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.5/viewer.css"
-    integrity="sha512-c7kgo7PyRiLnl7mPdTDaH0dUhJMpij4aXRMOHmXaFCu96jInpKc8sZ2U6lby3+mOpLSSlAndRtH6dIonO9qVEQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.5/viewer.min.js"
+        integrity="sha512-i5q29evO2Z4FHGCO+d5VLrwgre/l+vaud5qsVqQbPXvHmD9obORDrPIGFpP2+ep+HY+z41kAmVFRHqQAjSROmA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.5/viewer.css"
+        integrity="sha512-c7kgo7PyRiLnl7mPdTDaH0dUhJMpij4aXRMOHmXaFCu96jInpKc8sZ2U6lby3+mOpLSSlAndRtH6dIonO9qVEQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            #scroll-btn {
+                display: none;
+                position: fixed;
+                z-index: 99;
+                cursor: pointer;
+            }
+        </style>
 </head>
-
 <body class="bg-gradient-to-l from-slate-800 to-slate-900">
     <div id="app">
         <div class="h-screen">
@@ -58,16 +57,13 @@
                     <div class="text-center">
                         <!-- profile -->
                         <div class="flex justify-center items-center gap-x-6">
-                            <img loading="lazy" draggable="false" class="h-40 w-40 rounded-full ring ring-gray-400" src="images/picture.jpg" alt="Jeriel Formento">
+                            <img loading="lazy" draggable="false" class="h-40 w-40 rounded-full ring ring-gray-600" src="images/picture.jpg" alt="Jeriel Formento">
                         </div>
-                        <h3 class="text-2xl font-semibold leading-7 tracking-tight text-gray-900 dark:text-green-400 mt-6">
-                            Jeriel Formento</h3>
-                        <!-- position -->
-                        <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl mt-6">
-                            Full-Stack Web Developer</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">IT Professional with 10 years of
-                            experience specializing in web development to create scalable web applications by writing and
-                            testing code including database normalization, server management, and other development-related
+                        <h3 class="text-2xl font-semibold leading-7 tracking-tight text-gray-900 dark:text-gray-50 mt-6">Jeriel Formento</h3>
+                        <!-- position --> 
+                        <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl mt-6"><span class="text-green-500">Web</span>.<span class="text-gray-50">Dev</span></h1>
+                        <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">I am a Full-Stack Web Developer
+                            specializing in building scalable web applications, database normalization, server management, and other development-related
                             skills.
                             <a href="files/ME.CV.pdf" target="_blank"
                                 class="mt-2 flex items-center justify-center underline px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm">
@@ -76,6 +72,11 @@
                                   </svg>
                                 Download CV
                             </a>
+                            <div class="mt-3 flex items-center justify-center">
+                                <a href="https://www.linkedin.com/in/jeriel-formento-076592138/" target="_blank" rel="noreferrer">
+                                    <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Linked"><path d="M28 1c1.654 0 3 1.346 3 3v24c0 1.654-1.346 3-3 3H4c-1.654 0-3-1.346-3-3V4c0-1.654 1.346-3 3-3h24m0-1H4C1.8 0 0 1.8 0 4v24c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4V4c0-2.2-1.8-4-4-4z" fill="#34a853" class="color000000 svgShape"></path><path d="M24.299 23.921v-6.137c0-3.288-1.755-4.818-4.096-4.818-1.889 0-2.735 1.039-3.206 1.768v-1.517h-3.558c.047 1.005 0 10.704 0 10.704h3.558v-5.978c0-.319.023-.639.117-.867.257-.639.842-1.301 1.825-1.301 1.288 0 1.803.981 1.803 2.42v5.727l3.557-.001zM9.69 11.756c1.24 0 2.013-.823 2.013-1.85-.023-1.05-.773-1.849-1.99-1.849s-2.012.799-2.012 1.849c0 1.028.772 1.85 1.967 1.85h.022zm1.779 12.165V13.217H7.912v10.704h3.557z" fill="#34a853" class="color000000 svgShape"></path></svg>
+                                </a>
+                            </div>
                         </p>
                             
                         <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-x-3 gap-y-2">
@@ -1196,9 +1197,42 @@
             </div>
             <!-- end of trainings -->
         </div>
+
+        <!-- Back to top button -->
+        <a id="scroll-btn" onclick="topFunction()"
+            class="back-to-top fixed bottom-4 right-4 text-green-600 hover:text-green-500 focus:text-green-600 transition"
+            role="button" aria-label="Back to top" data-scroll-to="">
+            <svg class="fill-current rounded-full animate-bounce" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                viewBox="0 0 24 24">
+                <path
+                    d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.58l5.995 5.988-1.416 1.414-4.579-4.574-4.59 4.574-1.416-1.414 6.006-5.988z">
+                </path>
+            </svg>
+        </a>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script>
+        // Get the button:
+        let mybutton = document.getElementById("scroll-btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500);
+        }
+
         $("#view-project").click(function() {
             $('html, body').animate({ scrollTop: $("#projects").offset().top }, 400);
         });
@@ -1214,6 +1248,7 @@
         $("#view-skills").click(function() {
             $('html, body').animate({ scrollTop: $("#skills").offset().top }, 500);
         });
+        
     </script>
     <script src="https://cdn.jsdelivr.net/npm/imageviewer@1.1.0/dist/viewer.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/imageviewer@1.1.0/dist/viewer.min.css" rel="stylesheet">
