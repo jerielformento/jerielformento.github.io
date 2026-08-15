@@ -68,7 +68,7 @@
                         <h3 class="text-2xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl mt-1"><span class="text-gray-400">Full Stack Web Developer</span></h3>
 
                         <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                            I'm a web developer with years of experience in building and optimizing web applications. Proficient in front-end and back-end technologies, focused on delivering responsive and high-performance solutions. Eager to contribute to innovative projects in a collaborative environment.
+                            I'm a web developer with more than 10 years of experience designing, developing, and optimizing web applications from the ground up. I have strong experience across both front-end and back-end development, building scalable APIs, integrating third-party services, and delivering responsive, high-performance solutions. I’m passionate about writing clean, maintainable code and solving complex technical problems, and I thrive in collaborative environments where I can contribute to innovative projects.
                             <div class="mt-3 flex items-center justify-center">
                                 <a href="https://www.linkedin.com/in/jeriel-formento-076592138/" target="_blank" rel="noreferrer">
                                     <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Linked"><path d="M28 1c1.654 0 3 1.346 3 3v24c0 1.654-1.346 3-3 3H4c-1.654 0-3-1.346-3-3V4c0-1.654 1.346-3 3-3h24m0-1H4C1.8 0 0 1.8 0 4v24c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4V4c0-2.2-1.8-4-4-4z" fill="#34a853" class="color000000 svgShape"></path><path d="M24.299 23.921v-6.137c0-3.288-1.755-4.818-4.096-4.818-1.889 0-2.735 1.039-3.206 1.768v-1.517h-3.558c.047 1.005 0 10.704 0 10.704h3.558v-5.978c0-.319.023-.639.117-.867.257-.639.842-1.301 1.825-1.301 1.288 0 1.803.981 1.803 2.42v5.727l3.557-.001zM9.69 11.756c1.24 0 2.013-.823 2.013-1.85-.023-1.05-.773-1.849-1.99-1.849s-2.012.799-2.012 1.849c0 1.028.772 1.85 1.967 1.85h.022zm1.779 12.165V13.217H7.912v10.704h3.557z" fill="#34a853" class="color000000 svgShape"></path></svg>
@@ -314,11 +314,27 @@
         data() {
             const contents = {
                 projects: {
+                    readunit: {
+                        "title": "ReadUnit",
+                        "link": "https://readunit.com",
+                        "badge": "Tool management",
+                        "description": "Readunit is primarily a cloud-based equipment/tool management and inspection platform. It helps companies manage equipment, inspections, maintenance, documentation, rentals, tracking, compliance, and related workflows through its web platform and mobile app.",
+                        "techStack": ["PHP", "Laravel", "vue", "react", "tailwind", "html", "mysql"],
+                        "thumbnail": "/projects/readunit/5.PNG",
+                        "gallery": [
+                            "/projects/readunit/6.PNG",
+                            "/projects/readunit/7.PNG",
+                            "/projects/readunit/8.PNG",                            
+                            "/projects/readunit/2.PNG",
+                            "/projects/readunit/4.PNG",
+                            "/projects/readunit/9.PNG"
+                        ]
+                    },
                     accessonline: {
-                        "title": "Access Online Australia",
-                        "link": "#",
+                        "title": "Access Hire Australia",
+                        "link": "https://accesshire.net",
                         "badge": "online auction",
-                        "description": "An e-commerce website specialising in access equipment for hire and for sale with a full product solution including servicing, training, and transport.",
+                        "description": "An e-commerce platform specializing in the hire and sale of access equipment, providing customers with end-to-end solutions that include equipment servicing and maintenance, operator training, delivery and transportation, and related support services. The platform enables customers to browse equipment, select rental or purchase options, and access the additional services required throughout the equipment lifecycle.",
                         "techStack": ["asp.net core", "tailwind", "cosmos db", "react", "html"],
                         "thumbnail": "/projects/accessonline/1.PNG",
                         "gallery": [
@@ -332,7 +348,7 @@
                         "title": "eBidMo",
                         "link": "https://ebidmo.net",
                         "badge": "online auction",
-                        "description": "An online auction platform where vendors make a live auction of their products.",
+                        "description": "An MVP for an online live auction platform designed to connect vendors with customers through real-time product auctions. The platform's core functionality allows vendors to create and manage auction listings, define auction details, and offer products for bidding. Customers can browse available auctions, view product information, place bids, and monitor auction activity in real time. The MVP focused on validating the core auction and bidding workflow before expanding into additional features and functionality.",
                         "techStack": ["laravel", "tailwind", "mysql", "vue", "html"],
                         "thumbnail": "/projects/ebidmo/1.png",
                         "gallery": [
@@ -346,7 +362,7 @@
                         "title": "GIZA Steel",
                         "link": "https://gizasteel.com",
                         "badge": "e-commerce",
-                        "description": "An e-commerce and company website.",
+                        "description": "An e-commerce and corporate website for a structural steel connection design software company. The platform showcases GIZA's software products and solutions, allows customers to register for free trials, purchase software licenses, manage their accounts, download software, and access training, technical resources, and support services.",
                         "techStack": ["php", "js", "jquery", "bootstrap", "mysql", "html"],
                         "thumbnail": "/projects/gizasteel/1.png",
                         "gallery": [
@@ -361,7 +377,7 @@
                         "title": "GIZA Tickets",
                         "link": "#",
                         "badge": "ticketing",
-                        "description": "Ticketing system for client's request and submission of system bug reports for the team",
+                        "description": "A ticketing and issue management system that enables clients to submit service requests, report system bugs, and track the progress of their submissions. The platform provides the internal team with tools to review, categorize, prioritize, assign, and manage tickets throughout their lifecycle, improving communication and ensuring issues and requests are properly tracked through resolution.",
                         "techStack": ["laravel", "js", "jquery", "bootstrap", "mysql", "html"],
                         "thumbnail": "/projects/ticketing/1.png",
                         "gallery": [
@@ -374,8 +390,8 @@
                         "title": "Book Manual",
                         "link": "#",
                         "badge": "online manual",
-                        "description": "Employee's guide manual for production procedures and standard process",
-                        "techStack": ["laravel", "js", "jquery", "bootstrap", "mysql", "html"],
+                        "description": "Worked on an employee guide and digital manual designed to document production procedures, standard operating processes, and workflow guidelines. The system provided employees with easy access to instructions and process documentation, helping ensure consistency and adherence to established production standards.",
+                        "techStack": ["laravel", "js", "vue", "bootstrap", "mysql", "html"],
                         "thumbnail": "/projects/book/1.png",
                         "gallery": [
                             "/projects/book/2.png",
@@ -386,8 +402,8 @@
                         "title": "EPES",
                         "link": "#",
                         "badge": "evaluation",
-                        "description": "Employee Performance Evaluation System",
-                        "techStack": ["laravel", "js", "jquery", "bootstrap", "mysql", "html"],
+                        "description": "Worked on an Employee Performance Evaluation System that facilitates structured employee assessments through peer evaluations. The system calculates individual evaluation percentages from multiple peers and aggregates the results into an overall performance score, providing management with a centralized view of employee performance and evaluation results.",
+                        "techStack": ["laravel", "js", "vue", "bootstrap", "mysql", "html"],
                         "thumbnail": "/projects/evaluation/1.png",
                         "gallery": [
                             "/projects/evaluation/2.png",
@@ -399,8 +415,8 @@
                         "title": "Frozen Meat Shop",
                         "link": "#",
                         "badge": "e-commerce",
-                        "description": "A mockup design for Online Meat Shop supplier.",
-                        "techStack": ["php", "js", "jquery", "bootstrap", "mysql", "html"],
+                        "description": "Worked on a mockup design for an online meat shop and supplier platform, focusing on the layout and user experience for showcasing meat products, product categories, pricing, and ordering functionality. The design was created to provide a clear and user-friendly shopping experience for customers browsing and purchasing products online.",
+                        "techStack": ["php", "js", "vue", "bootstrap", "mysql", "html"],
                         "thumbnail": "/projects/shop/1.png",
                         "gallery": [
                             "/projects/shop/2.png",
@@ -412,6 +428,23 @@
                     
                 },
                 experience: {
+                    malayo: {
+                        "employer": "Malayo International, Inc.",
+                        "year": "2025-Present",
+                        "industry": "Offshoring",
+                        "address": "16F Equitable Tower Corner ADB Ave Ortigas Center, Pasig City",
+                        "position": "Senior Full Stack Developer",
+                        "responsibilities": [
+                            "Drove modernization of a legacy system, improving maintainability and performance",
+                            "Served as the primary technical resource for a growing development team",
+                            "Implemented Git workflows and Docker-based development environment",
+                            "Integrated external and internal APIs to extend system functionality",
+                            "Refactored modules to improve scalability and code quality",
+                            "Conducted code reviews and led onboarding of new developers"
+                        ],
+                        "website": "malayo.dk",
+                        "link": "https://malayo.dk/"
+                    },
                     ee: {
                         "employer": "Emapta",
                         "year": "2024-2025",
@@ -420,8 +453,9 @@
                         "position": "Full Stack Web Developer",
                         "responsibilities": [
                             "Developing an e-commerce website using ASP.NET Core MVC",
-                            "Refactored and maintained a legacy system using PHP and MSSQL",
-                            "Updated and maintained WordPress sites",
+                            "Maintained and enhanced WordPress websites integrated with WooCommerce",
+                            "Collaborated with the marketing team on web-related projects, requirements, and technical concerns",
+                            "Refactored and maintained a legacy PHP/MSSQL system, migrating it to the Laravel framework",
                         ],
                         "website": "emapta.com",
                         "link": "https://emapta.com/"
@@ -443,21 +477,21 @@
                         "link": "https://ids-inc.net"
                     },
                     cs: {
-                        "employer": "Collective Solution Philippines",
+                        "employer": "UnifyCX formerly Collective Solution",
                         "year": "2013-2021",
                         "industry": "BPO",
                         "address": "41 Niscom IT Bldg, Holy Spirit Commonwealth Ave. Quezon City",
                         "position": "PHP Developer",
                         "responsibilities": [
                             "Create/Manage Web Applications",
-                            "System Automation",
+                            "Systems Automation",
                             "Linux Environment Development (CentOS)",
-                            "Web Services/Rest API",
-                            "Maintain Company Website",
-                            "International Sites Tech Support"
+                            "Web Services/REST APIs",
+                            "Maintain Company Website using WordPress",
+                            "International sites tech support"
                         ],
-                        "website": "collectivesolution.net",
-                        "link": "https://collectivesolution.net"
+                        "website": "unifycx.com",
+                        "link": "https://www.unifycx.com/"
                     },
                 },
                 trainings: {
